@@ -52,8 +52,7 @@ def invoke_endpoint(features):
 with st.sidebar:
     st.title("Credit Score Prediction")
     st.markdown(
-        "Predict a customer's **credit score** (**Poor / Standard / Good**) "
-        "served by a SageMaker Endpoint on AWS."
+        "This website allows you to predict your credit score"
     )
     st.caption(f"Endpoint: {ENDPOINT_NAME}  |  Region: {REGION}")
 
